@@ -1,0 +1,35 @@
+{
+  "name": "flat-insert",
+  "version": "0.1.0",
+  "description": "Returns a new Array or String after inserting and flatten value at index.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grindcode/flat-insert.git"
+  },
+  "keywords": [
+    "array",
+    "string",
+    "insert",
+    "inject",
+    "position",
+    "index",
+    "join",
+    "concat",
+    "slice",
+    "splice",
+    "flat"
+  ],
+  "author": "Isis T. Baulig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grindcode/flat-insert/issues"
+  },
+  "homepage": "https://github.com/grindcode/flat-insert#readme",
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
