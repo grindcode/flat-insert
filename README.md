@@ -1,5 +1,5 @@
 # Flat Insert
-[![Build Status](https://travis-ci.com/grindcode/flat-insert.svg?token=beEYprwjqTf1kNJAmUbX&branch=master)](https://travis-ci.com/grindcode/flat-insert)
+[![Build Status](https://travis-ci.org/grindcode/flat-insert.svg?branch=master)](https://travis-ci.org/grindcode/flat-insert)
 
 Returns a new _Array_ or _String_ after inserting and flatten `value` at `index`.
 
