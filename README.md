@@ -1,5 +1,5 @@
 # Flat Insert
-[![Build Status](https://travis-ci.org/grindcode/flat-insert.svg?branch=master)](https://travis-ci.org/grindcode/flat-insert)
+[![Build Status](https://travis-ci.org/grindcode/flat-insert.svg?branch=master)](https://travis-ci.org/grindcode/flat-insert) [![Dependency Status](https://david-dm.org/grindcode/flat-insert.svg)](https://david-dm.org/grindcode/flat-insert) [![devDependency Status](https://david-dm.org/grindcode/flat-insert/dev-status.svg)](https://david-dm.org/grindcode/flat-insert#info=devDependencies)
 
 Returns a new _Array_ or _String_ after inserting and flatten `value` at `index`.
 
