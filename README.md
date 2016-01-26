@@ -3,9 +3,6 @@
 
 Returns a new _Array_ or _String_ after inserting and flatten `value` at `index`.
 
-[![browser support](https://ci.testling.com/grindcode/flat-insert.png)
-](https://ci.testling.com/grindcode/flat-insert)
-
 ## Get Started
 ```
 npm install flat-insert
