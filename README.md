@@ -4,7 +4,7 @@
 Returns a new _Array_ or _String_ after inserting and flatten `value` at `index`.
 
 ## Get Started
-```
+```bash
 npm install flat-insert
 ```
 
@@ -18,7 +18,7 @@ Returns new `string` or `array` depending on `input` type.
 * `index`: Index or position at `input` where insert `value`. (**Number**; default: `0`)
 
 ### Usage
-```
+```javascript
 var insert = require('flat-insert')
 
 insert([1, 2, 3], [1.1, 1.2], 1)
