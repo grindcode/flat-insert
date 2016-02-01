@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/grindcode/flat-insert#readme",
   "devDependencies": {
+    "benchmark": "^2.1.0",
     "tape": "^4.4.0"
   }
 }
