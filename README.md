@@ -4,7 +4,7 @@
 Returns a new _Array_ or _String_ after inserting and flatten `value` at `index`.
 
 ## Get Started
-```bash
+```shell
 npm install flat-insert
 ```
 
@@ -32,10 +32,17 @@ insert('123', 'yo', 2)
 ```
 
 ## Benchmark
-```bash
-string insert x 11,097,858 ops/sec ±0.70% (84 runs sampled)
-array insert x 1,015,198 ops/sec ±0.97% (86 runs sampled)
-array insert multi x 1,839,994 ops/sec ±0.87% (83 runs sampled)
+```shell
+node benchmark.js
+```
+### Results
+```javascript
+insert(string, 'foo', 3)
+// → 11,097,858 ops/sec ±0.70% (84 runs sampled)
+insert(array, 'foo', 3)
+// → 1,015,198 ops/sec ±0.97% (86 runs sampled)
+insert(array, ['foo', undefined, true], 3)
+// → 1,839,994 ops/sec ±0.87% (83 runs sampled)
 ```
 
 ## License
