@@ -1,6 +1,6 @@
 {
   "name": "flat-insert",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Returns a new Array or String after inserting and flatten value at index.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,12 @@
     "concat",
     "slice",
     "splice",
-    "flat"
+    "flat",
+    "flatten",
+    "immutable",
+    "merge",
+    "values",
+    "mixed"
   ],
   "author": "Isis T. Baulig",
   "license": "MIT",
