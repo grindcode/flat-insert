@@ -9,13 +9,13 @@ npm install flat-insert
 ```
 
 ## API
-### insert(input, value, [index])
-Returns new `string` or `array` depending on `input` type.
-* `input`: Input value to be modified. (**String**|**Array**)
-* `value`: Any value to be inserted into `input`. (**mixed**)
+### insert(input, value[, index])
+Returns new modified value depending on `input` type.
+* `input`: Input value. (**String**|**Array**)
+* `value`: Value to be inserted. (**Mixed**)
   *  If `input` type is _String_, `value` will be turned into _String_.
   *  If `input` and `value` types are _Array_, then `value` will be flatten.
-* `index`: Index or position at `input` where insert `value`. (**Number**; default: `0`)
+* `index`: Index position for insertion. (**Number**; defaults `0`)
 
 ### Usage
 ```javascript

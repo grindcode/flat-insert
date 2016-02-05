@@ -37,5 +37,9 @@
   "devDependencies": {
     "benchmark": "^2.1.0",
     "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "lodash.concat": "^4.0.1",
+    "lodash.slice": "^4.0.1"
   }
 }
