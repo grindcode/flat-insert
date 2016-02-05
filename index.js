@@ -1,4 +1,3 @@
-var slice = require('lodash.slice')
 /**
  * Returns a new Array or String after inserting and flatten value at index.
  * @param {Array|String} input - Input value.
