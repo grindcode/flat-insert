@@ -36,13 +36,13 @@ insert('123', 'yo', 2)
 node benchmark.js
 ```
 ### Results
-```javascript
-insert(string, 'foo', 3)
-// → 11,097,858 ops/sec ±0.70% (84 runs sampled)
-insert(array, 'foo', 3)
-// → 1,015,198 ops/sec ±0.97% (86 runs sampled)
-insert(array, ['foo', undefined, true], 3)
-// → 1,839,994 ops/sec ±0.87% (83 runs sampled)
+```shell
+insert string into string x 10,419,264 ops/sec ±0.77% (84 runs sampled)
+insert 1x array into string x 2,414,477 ops/sec ±0.94% (85 runs sampled)
+insert string into 10x array x 1,672,396 ops/sec ±1.11% (83 runs sampled)
+insert number into 10x array x 1,611,555 ops/sec ±1.49% (80 runs sampled)
+insert object into 10x array x 1,604,038 ops/sec ±2.43% (80 runs sampled)
+insert 3x array into 10x array x 1,636,813 ops/sec ±1.30% (78 runs sampled)
 ```
 
 ## License

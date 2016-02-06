@@ -6,9 +6,14 @@
  * @returns {Array|String} New modified value depending on `input` type.
  */
 module.exports = function (input, value, index) {
-  if (typeof input !== 'string' && !Array.isArray(input))
+  var isStringInput = typeof input === 'string'
+  if (!isStringInput && !Array.isArray(input))
     throw new TypeError('First argument invalid. Expected Array or String.')
   if (typeof index !== 'undefined' && typeof index !== 'number')
     throw new TypeError('Third argument invalid. Expected Number.')
-  return input.slice(0, index || 0).concat(value).concat(input.slice(index || 0))
+  // Avoid negative index offset
+  var beacon = index || 0
+  // concat([value]) is faster than concat(value) for String, Number and Object
+  var insert = (Array.isArray(value) || isStringInput)? value: [value]
+  return input.slice(0, beacon).concat(insert).concat(input.slice(beacon))
 }
