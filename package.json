@@ -1,6 +1,6 @@
 {
   "name": "flat-insert",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Returns a new Array or String after inserting and flatten value at index.",
   "main": "index.js",
   "scripts": {
