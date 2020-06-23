@@ -1,5 +1,5 @@
 # Flat Insert
-[![Build Status](https://travis-ci.org/grindcode/flat-insert.svg?branch=master)](https://travis-ci.org/grindcode/flat-insert) [![Test Coverage](https://codeclimate.com/github/grindcode/flat-insert/badges/coverage.svg)](https://codeclimate.com/github/grindcode/flat-insert/coverage) [![Dependency Status](https://david-dm.org/grindcode/flat-insert.svg)](https://david-dm.org/grindcode/flat-insert) [![devDependency Status](https://david-dm.org/grindcode/flat-insert/dev-status.svg)](https://david-dm.org/grindcode/flat-insert#info=devDependencies)
+[![Build Status](https://travis-ci.org/grindcode/flat-insert.svg?branch=master)](https://travis-ci.org/grindcode/flat-insert) [![Dependency Status](https://david-dm.org/grindcode/flat-insert.svg)](https://david-dm.org/grindcode/flat-insert) [![devDependency Status](https://david-dm.org/grindcode/flat-insert/dev-status.svg)](https://david-dm.org/grindcode/flat-insert#info=devDependencies)
 
 Returns a new _Array_ or _String_ after inserting and flatten `value` at `index`.
 
@@ -37,12 +37,12 @@ node benchmark.js
 ```
 ### Results
 ```shell
-insert string into string x 10,419,264 ops/sec ±0.77% (84 runs sampled)
-insert 1x array into string x 2,414,477 ops/sec ±0.94% (85 runs sampled)
-insert string into 10x array x 1,672,396 ops/sec ±1.11% (83 runs sampled)
-insert number into 10x array x 1,611,555 ops/sec ±1.49% (80 runs sampled)
-insert object into 10x array x 1,604,038 ops/sec ±2.43% (80 runs sampled)
-insert 3x array into 10x array x 1,636,813 ops/sec ±1.30% (78 runs sampled)
+insert string into string x 49,334,288 ops/sec ±0.51% (87 runs sampled)
+insert 1x array into string x 2,726,256 ops/sec ±0.24% (90 runs sampled)
+insert string into 10x array x 1,926,946 ops/sec ±0.69% (84 runs sampled)
+insert number into 10x array x 1,904,262 ops/sec ±2.90% (83 runs sampled)
+insert object into 10x array x 1,876,367 ops/sec ±3.23% (86 runs sampled)
+insert 3x array into 10x array x 1,792,153 ops/sec ±4.13% (81 runs sampled)
 ```
 
 ## License
