@@ -1,5 +1,5 @@
 var Benchmark = require('benchmark')
-var Suite = new Benchmark.Suite
+var Suite = new Benchmark.Suite()
 var insert = require('./index.js')
 
 var testString = 'abcdefg'
